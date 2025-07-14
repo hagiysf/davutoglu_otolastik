@@ -88,16 +88,19 @@ body {
   object-fit: cover;
 }
 
-/* ----- Arka plan odak ayarı ----- */
+/* masaüstü → ortala */
 .hero-right {
   background-position: center center;
-  /* masaüstü varsayılan */
 }
 
-/* Mobilde odak 80% x ekseni (sağa kayık) */
+/* mobil (<768 px) → odak sağa */
 @media (max-width:768px) {
   .hero-right {
-    background-position: 80% center;
-    /* 0%=sol, 50%=orta, 100%=sağ */
+    /* seçenek A – yüzde ile (en esnek) */
+   /* background-position: 90% center;*/
+    /* 0%=sol, 50%=orta, 100%=tam sağ */
+
+    /* seçenek B – sabit anahtar kelime */
+    background-position:right center; 
   }
 }
