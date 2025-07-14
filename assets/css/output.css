@@ -760,3 +760,9 @@ body {
     }
   }
 }
+
+/* mobilde resmi sağa kaydır */
+@media (max-width:768px){
+  .hero-right{background-position:90% center;}
+}
+
