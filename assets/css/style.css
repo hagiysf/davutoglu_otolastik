@@ -104,3 +104,4 @@ body {
     background-position:right center; 
   }
 }
+.link-red{ @apply text-red-600 underline; }

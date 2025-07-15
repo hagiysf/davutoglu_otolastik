@@ -765,4 +765,7 @@ body {
 @media (max-width:768px){
   .hero-right{background-position:90% center;}
 }
-
+.link-red{
+  color:#e3342f;      /* Tailwind red-600 tonu */
+  text-decoration:underline;
+}
